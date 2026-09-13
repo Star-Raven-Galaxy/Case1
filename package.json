@@ -1,0 +1,25 @@
+{
+  "name": "weather-forecast-cli",
+  "version": "1.0.0",
+  "description": "Console utility for weather forecast via Open-Meteo API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "weather",
+    "cli",
+    "nodejs",
+    "open-meteo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
